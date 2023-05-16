@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition-duration: 0.5s;
+}
+body{
+    background-color: #081b29;
+}
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+.logo{
+    font-size: 35px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a{
+    font-size: 18px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+}
+nav a:hover{
+    color:#00abf0
+}
+.home{
+    color:#00abf0
+}
+.main{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.main_content{
+    max-width: 600px;
+}
+.main_content h1{
+    font-size: 60px;
+    color:whitesmoke
+}
+.main_content h2{
+    font-size: 30px;
+    font-weight: 700;
+    color:#00abf0;
+    margin-top:20px
+}
+.main_content p{
+    color:whitesmoke;
+    margin: 40px 0px;
+    line-height: 20px;
+}
+.button{
+    display:flex;
+}
+.button a{
+    padding:15px 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    color:whitesmoke;
+    border:1px solid #00abf0;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.button a:hover{
+    background-color: #00abf0;
+}
+.photo_cover{
+    position: absolute;
+    width:700px;
+    height:700px;
+    border:1px solid #00abf0;
+    border-radius: 50%;
+    right:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00abf0;
+}
+.photo{
+    width:550px;
+    height:550px;
+    border: 1px solid #00abf0;
+    border-radius: 50%;
+    z-index: 10;
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+.media{
+    position: absolute;
+    bottom:40px;
+}
+.media a{
+    display: inline-block;
+    font-size: 20px;
+    height:50px;
+    width:50px;
+    line-height: 50px;
+    text-align: center;
+    color:#00abf0;
+    margin-right:15px;
+    border:1px solid #00abf0;
+    border-radius: 50%;
+}
+.media a:hover{
+    color:whitesmoke;
+    background-color: #00abf0;
+    border:1px solid whitesmoke;
+}
